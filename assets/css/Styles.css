@@ -18,7 +18,7 @@ html{
 }
 
 #nav{
-
+    display: inline-block;
 }
 
 #nav li{
@@ -65,6 +65,20 @@ html{
     width: 100%;
 }
 
+#nav .nav-arrow-down{
+    font-size: 14px;
+} 
+#header .search-icon{
+    float: right;
+    line-height: 46px;
+    color: white;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+#header .search-icon:hover{
+    background-color: #f44336;
+}
 #slider{
     /* background-color: #333;
     min-height: 500px; */
